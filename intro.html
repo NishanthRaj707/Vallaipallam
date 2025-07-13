@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>வாழைபழம்- Tamil Programming Language</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Noto Sans Tamil', sans-serif;
+      background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+      color: #fff;
+      line-height: 1.8;
+    }
+
+    header {
+      background: #111;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem 2rem;
+      border-bottom: 3px solid #ffe600;
+      box-shadow: 0 4px 20px rgba(255, 230, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 2.5rem;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    .title {
+      font-size: 2rem;
+      color: #ffe600;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 0, 0.05);
+    }
+
+    h2, h3 {
+      color: #ffe600;
+    }
+
+    p, li {
+      color: #e0e0e0;
+      font-size: 1.1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li::before {
+      content: '✔️';
+      margin-right: 0.5rem;
+    }
+
+    .founder-content {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-top: 1rem;
+    }
+
+    .founder-image {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 16px;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(255, 230, 0, 0.3);
+    }
+
+    .designation {
+      font-weight: bold;
+      color: #00ff99;
+    }
+
+    blockquote {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem 1.5rem;
+      border-left: 5px solid #00ff99;
+      border-radius: 10px;
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .barathi-quote {
+      color: #ffe600;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .center-button {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .button {
+      background: #ffe600;
+      color: #111;
+      padding: 0.9rem 2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(255, 230, 0, 0.3);
+      transition:  0.3s ease, transform 0.2s;
+    }
+
+    .button:hover {
+      background: #ffcc00;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+      .founder-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tamil Programming Language</h1>
+  </header>
+
+  <main class="container">
+    <section class="intro" id="intro">
+      <h2>✨ Welcome to Vallaipallam ✨</h2>
+      <p>
+        Vallaipallam is an innovative and vibrant programming language crafted fully in Tamil. It's made for curious students, inspired learners, and anyone who dreams in Tamil.
+      </p>
+      <p>
+        Code becomes clear when written in the language you speak every day. Vallaipallam simplifies logic-building and brings joy to learning, all in your mother tongue! 🍌
+      </p>
+    </section>
+
+    <section class="founder highlight">
+      <div class="founder-content">
+        <img src="founder.jpg" alt="Founder Image" class="founder-image" />
+        <div>
+          <h3>J. Nishanth Raj</h3>
+          <p class="designation">Founder</p>
+          <blockquote>
+            "We believe that everyone deserves to understand technology. And the best way to learn is in the language you think in — your own. That's why I created Vallaipallam — for every Tamil student to say 'Naanum programmer da!' 🖥️"
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <h3>📜 The Spark Behind Vallaipallam</h3>
+      <p class="barathi-quote">
+        <strong>'சென்றிடுவீர் எட்டுத்திக்கும் கலைச் செல்வங்கள் யாவும் கொணர்ந்திங்கு சேர்ப்பீர்'— பாரதியார்</strong>
+      </p>
+      <p>
+        These timeless words from Bharathiyar fuel the spirit of this project. Vallaipallam is more than code — it's a tribute to language, legacy, and limitless learning.
+      </p>
+    </section>
+
+    <section class="usp">
+      <h3>🌟 Why You'll Love Vallaipallam</h3>
+      <ul>
+        <li>💛 Fully Tamil syntax with easy-to-understand commands</li>
+        <li>📘 Beginner-friendly — perfect for school learners</li>
+        <li>⚙️ Powered by Python core for modern use</li>
+        <li>🌐 Designed for both mobile and web use</li>
+        <li>🚀 Promotes tech literacy in your native language</li>
+      </ul>
+    </section>
+
+    <section class="vision">
+      <h3>🌱 Our Vision</h3>
+      <p>
+        We envision a Tamil Nadu where students dream in code and speak it fluently in Tamil. With Vallaipallam, we are not just learning — we are building a future, one line of native code at a time.
+      </p>
+      <p>
+        From classrooms to hackathons, our mission is to make programming easy, inclusive, and proudly rooted in Tamil identity. 🌍❤️
+      </p>
+    </section>
+
+    <section class="audience">
+      <h3>🎯 Who Is This For?</h3>
+      <p>
+        ✍️ From Tamil medium students, to rural innovators and first-time coders — if you think in Tamil, this language is made just for you.
+      </p>
+      <p>
+        No prior coding knowledge required — we start with zero, and build you into a hero.
+      </p>
+    </section>
+      <section class="tutorial-map">
+      <h3>📊 Explore Tutorials by Topic</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Topic</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td><td>Print Statement</td><td><a href="tutorial1.html">Tutorial 1</a></td>
+          </tr>
+          <tr>
+            <td>2</td><td>Arithmetic Operators</td><td><a href="tutorial2.html">Tutorial 2</a></td>
+          </tr>
+          <tr>
+            <td>5</td><td>Variables & Assignment</td><td><a href="tutorial5.html">Tutorial 5</a></td>
+          </tr>
+          <tr>
+            <td>9</td><td>Conditional Statements</td><td><a href="tutorial9.html">Tutorial 9</a></td>
+          </tr>
+          <tr>
+            <td>17</td><td>File Handling</td><td><a href="tutorial17.html">Tutorial 17</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <div class="center-button">
+      <a href="tutorial0.html" class="button">🚀 Start with Your First Code</a>
+    </div>
+  </main>
+</body>
+</html>

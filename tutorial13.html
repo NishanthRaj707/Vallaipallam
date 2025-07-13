@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 13 - Functions | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 13</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🔧 Lesson 13: Functions (<code style="color:#ff6600;font-weight:bold;">வேலை</code>)</h2>
+      <p>
+        Functions are reusable blocks of code that help organize programs. In Vallaipallam:
+        <ul>
+          <li><strong style="color:#ff6600">வேலை</strong> – used to define a function (like <code>def</code>)</li>
+          <li><strong style="color:#ff6600">உருவாக்கு</strong> – used to declare variables and parameters</li>
+          <li><strong style="color:#ff6600">கூப்பிடு</strong> – used to call a function</li>
+          <li><strong style="color:#ff6600">கொடு</strong> – used to return a value</li>
+        </ul>
+      </p>
+
+      <h3>🧩 Without Parameters and Without Return</h3>
+      <pre class="code-block">
+<span style="color:#ff6600">வேலை</span> வரவேற்பு() {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"வணக்கம்! இது ஒரு வேலை ஆகும்"</span>)
+}
+<span style="color:#ff6600">கூப்பிடு</span> வரவேற்பு()
+      </pre>
+      <div class="output-box">
+        வணக்கம்! இது ஒரு வேலை ஆகும்
+      </div>
+
+      <h3>📥 With Parameters and Without Return</h3>
+      <pre class="code-block">
+<span style="color:#ff6600">வேலை</span> கூட்டல்(எண்1, எண்2) {
+  <span class="keyword">வெளியிடு</span>(எண்1 + எண்2)
+}
+<span style="color:#ff6600">கூப்பிடு</span> கூட்டல்(2.0, 3.5)
+      </pre>
+      <div class="output-box">
+        5.5
+      </div>
+
+      <h3>🎁 Without Parameters and With Return</h3>
+      <pre class="code-block">
+<span style="color:#ff6600">வேலை</span> எண்_கொடு() {
+  <span style="color:#ff6600">கொடு</span> 10.0
+}
+<span class="keyword">உருவாக்கு</span> பெறப்பட்டது = <span style="color:#ff6600">கூப்பிடு</span> எண்_கொடு()
+<span class="keyword">வெளியிடு</span>(பெறப்பட்டது)
+      </pre>
+      <div class="output-box">
+        10.0
+      </div>
+
+      <h3>📦 With Parameters and With Return</h3>
+      <pre class="code-block">
+<span style="color:#ff6600">வேலை</span> பெருக்கல்(எ1, எ2) {
+  <span style="color:#ff6600">கொடு</span> எ1 * எ2
+}
+<span class="keyword">உருவாக்கு</span> முடிவு = <span style="color:#ff6600">கூப்பிடு</span> பெருக்கல்(4.0, 5.0)
+<span class="keyword">வெளியிடு</span>(முடிவு)
+      </pre>
+      <div class="output-box">
+        20.0
+      </div>
+
+      <p>
+        ✅ Functions help break complex problems into smaller, reusable parts. Use <code style="color:#ff6600">வேலை</code> to define, <code style="color:#ff6600">கூப்பிடு</code> to call and <code style="color:#ff6600">கொடு</code> to return values.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial14.html" class="button">➡️ Go to Tutorial 14</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

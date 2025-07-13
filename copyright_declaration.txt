@@ -1,0 +1,8 @@
+I, J. Nishanth Raj, hereby declare that I am the original and sole creator of the programming language titled "Vallaipallam" including its interpreter code, syntax design, and documentation.
+
+The entire work contained in this package is original and has not been published elsewhere.
+
+Date of Completion: July 2025
+Place: Tamil Nadu, India
+
+Signature: (J. Nishanth Raj)

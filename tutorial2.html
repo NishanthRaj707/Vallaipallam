@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial 2 - Data Types | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 2</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🧠 Lesson 2: Understanding Data Types</h2>
+      <p>
+        Every value in Vallaipallam belongs to a specific data type. Knowing the data types helps you handle and use values correctly in your program. You can check a value’s type using the <span class="keyword">வகை()</span> function.
+      </p>
+
+      <h3>🔎 What is வகை() ?</h3>
+      <p>
+        The <code class="keyword">வகை()</code> function in Vallaipallam is used to check the data type of any value or variable.
+        It returns the name of the datatype such as <code>எண்</code>, <code>சொல்</code>, <code>மெய்ப்பு</code>, etc.
+        This is useful when you want to confirm what type of data you're working with.
+      </p>
+
+      <h3>🔸 Types of Data in Vallaipallam:</h3>
+      <ul>
+        <li><strong>எண்</strong> – Float numbers like <span class="number">3.14</span>, <span class="number">10.0</span></li>
+        <li><strong>சொல்</strong> – Strings like <span class="string">"வணக்கம்"</span>, <span class="string">"தமிழ்"</span></li>
+        <li><strong>பட்டியல்</strong> – Lists like <code class="number">[1, 2, 3]</code></li>
+        <li><strong>மெய்ப்பு</strong> – Boolean values: <code>மெய்</code> (True), <code>பொய்</code> (False)</li>
+        <li><strong>காலி</strong> – Represents no value (None)</li>
+        <li><strong>சொற்பொருள்</strong> – Keywords used by the language (like வகை, வெளியிடு, உள்ளீடு)</li>
+      </ul>
+
+      <h3>🧪 Example Usage:</h3>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span class="keyword">வகை</span>(<span class="number">3.14</span>))  # Output: எண்
+<span class="keyword">வெளியிடு</span>(<span class="keyword">வகை</span>(<span class="string">"வணக்கம்"</span>))  # Output: சொல்
+<span class="keyword">வெளியிடு</span>(<span class="keyword">வகை</span>([<span class="number">1</span>, <span class="number">2</span>]))  # Output: பட்டியல்
+<span class="keyword">வெளியிடு</span>(<span class="keyword">வகை</span>(உண்மை))  # Output: மெய்ப்பு
+<span class="keyword">வெளியிடு</span>(<span class="keyword">வகை</span>(காலி))  # Output: காலி
+      </pre>
+
+      <h3>🧾 Output</h3>
+      <div class="output-box">
+        எண்<br>
+        சொல்<br>
+        பட்டியல்<br>
+        மெய்ப்பு<br>
+        காலி
+      </div>
+
+      <p>
+        🎓 <strong>Tip:</strong> Always use the correct type while giving input or writing expressions.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial3.html" class="button">➡️ Go to Tutorial 3 (Arithmetic Operators)</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

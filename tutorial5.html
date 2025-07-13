@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial 5 - Input Function | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 5</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>📥 Lesson 5: Getting Input from the User</h2>
+      <p>
+        In Vallaipallam, we use the function <span class="keyword">உள்ளீடு()</span> to get input from the user. You can also pass a message inside it to display as a prompt.
+        Input from the user can be stored in a variable using <span class="keyword">உருவாக்கு</span>.
+      </p>
+
+      <h3>🛠️ Syntax:</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பெயர் = <span class="keyword">உள்ளீடு</span>(<span class="string">"உங்கள் பெயரை உள்ளிடவும்: "</span>)
+</pre>
+
+      <p>
+        You can use the input in calculations or print it using <code class="keyword">வெளியிடு()</code>.
+      </p>
+
+      <h3>🔸 Example Usage:</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பெயர் = <span class="keyword">உள்ளீடு</span>(<span class="string">"பெயர் என்ன?"</span>)
+<span class="keyword">வெளியிடு</span>(<span class="string">"வணக்கம், "</span>, பெயர்)
+
+<span class="keyword">உருவாக்கு</span> வா = <span class="keyword">உள்ளீடு</span>(<span class="string">"முதல் எண்ணை உள்ளிடவும்: "</span>)
+<span class="keyword">உருவாக்கு</span> வ = <span class="keyword">உள்ளீடு</span>(<span class="string">"இரண்டாவது எண்ணை உள்ளிடவும்: "</span>)
+
+<span class="keyword">வெளியிடு</span>(<span class="string">"மொத்தம்: "</span>, வா + வ)
+      </pre>
+
+      <h3>🧾 Output (Sample)</h3>
+      <div class="output-box">
+        பெயர் என்ன? Nishanth<br>
+        வணக்கம், Nishanth<br>
+        முதல் எண்ணை உள்ளிடவும்: 5<br>
+        இரண்டாவது எண்ணை உள்ளிடவும்: 10<br>
+        மொத்தம்: 15
+      </div>
+
+      <p>
+        🔍 <strong>Note:</strong> All input values are considered as strings by default. If you want to do arithmetic, make sure your interpreter converts them to <code>எண்</code> appropriately.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial6.html" class="button">➡️ Go to Tutorial 6(Relational Operator)</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

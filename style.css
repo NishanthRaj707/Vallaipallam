@@ -1,0 +1,147 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Noto Sans Tamil', sans-serif;
+  background: linear-gradient(to bottom right, #0f0f0f, #1c1c1c);
+  color: #f1f1f1;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.glass-header {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #ffe600;
+  box-shadow: 0 4px 20px rgba(255, 230, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffe600;
+}
+
+/* Container */
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.05);
+}
+
+h2, h3 {
+  color: #ffe600;
+  margin-bottom: 1rem;
+}
+
+p, li {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  list-style: none;
+}
+
+ul li::before {
+  content: '✔️';
+  margin-right: 0.5rem;
+}
+
+.code-block {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-left: 5px solid #ffe600;
+  border-radius: 10px;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  color: #e6e6e6;
+  white-space: pre-wrap;
+}
+
+.code-block .keyword {
+  color: #00d8ff;
+  font-weight: bold;
+}
+
+.code-block .string {
+  color: #ffa7c4;
+}
+
+.code-block .number {
+  color: #9effa0;
+}
+
+.output-box {
+  background-color: #222;
+  border: 2px solid #00ff99;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  color: #baffc9;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button {
+  background: #ffe600;
+  color: #111;
+  padding: 0.9rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 230, 0, 0.3);
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.button:hover {
+  background: #ffcc00;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}

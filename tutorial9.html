@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 9 - Conditional Statements | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 9</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🧭 Lesson 9: Conditional Statements (<code style="color: #ff6600; font-weight: bold;">இது...என்றால்</code>)</h2>
+      <p>
+        Conditional statements help us make decisions in a program. Based on a condition, we can choose which block of code to run.
+        In Vallaipallam, we use:
+      </p>
+      <ul>
+        <li><code style="color: #ff6600; font-weight: bold;">இது &lt;condition&gt; என்றால் {...}</code> — if</li>
+        <li><code style="color: #ff6600; font-weight: bold;">இல்லையெனில் &lt;condition&gt; என்றால் {...}</code> — elif</li>
+        <li><code style="color: #ff6600; font-weight: bold;">இல்லை {...}</code> — else</li>
+      </ul>
+
+      <h3>🔹 Basic If Statement</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> x = <span class="number">5</span>
+<span style="color: #ff6600; font-weight: bold;">இது</span> x &gt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"எண் நேர்மறை ஆகும்"</span>)
+}
+      </pre>
+
+      <h3>🔹 If-Else Statement</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> x = <span class="number">-3</span>
+<span style="color: #ff6600; font-weight: bold;">இது</span> x &gt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"நேர்மறை"</span>)
+} <span style="color: #ff6600; font-weight: bold;">இல்லை</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"எண் எதிர்மறை"</span>)
+}
+      </pre>
+
+      <h3>🔹 If-Elif-Else Statement</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> x = <span class="number">0</span>
+<span style="color: #ff6600; font-weight: bold;">இது</span> x &gt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"நேர்மறை"</span>)
+} <span style="color: #ff6600; font-weight: bold;">இல்லையெனில்</span> x &lt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"எதிர்மறை"</span>)
+} <span style="color: #ff6600; font-weight: bold;">இல்லை</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"பூஜ்ஜியம்"</span>)
+}
+      </pre>
+
+      <h3>📌 Real Example: Check Positive, Negative or Zero</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> எண் = <span class="number">-7</span>
+<span style="color: #ff6600; font-weight: bold;">இது</span> எண் &gt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"நேர்மறை எண்"</span>)
+} <span style="color: #ff6600; font-weight: bold;">இல்லையெனில்</span> எண் &lt; <span class="number">0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"எதிர்மறை எண்"</span>)
+} <span style="color: #ff6600; font-weight: bold;">இல்லை</span> {
+  <span class="keyword">வெளியிடு</span>(<span class="string">"பூஜ்ஜியம்"</span>)
+}
+      </pre>
+
+      <h3>🧾 Output</h3>
+      <div class="output-box">
+        எதிர்மறை எண்
+      </div>
+
+      <h3>🔍 Explanation</h3>
+      <p>
+        The program checks whether the number is greater than 0, less than 0, or exactly 0 and prints a message accordingly.
+        <br>Use <code style="color: #ff6600; font-weight: bold;">இது ... என்றால்</code> to define your condition and curly braces <code>{ }</code> to group the block of statements.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial10.html" class="button">➡️ Go to Tutorial 10</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

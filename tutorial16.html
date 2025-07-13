@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 16 - Import Statement | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 16</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>📦 Lesson 16: Import Statement - <span style="color:#0055aa">இறக்கு</span></h2>
+      <p>
+        In Vallaipallam, you can reuse the code from another file using the keyword <code style="color:#0055aa">இறக்கு</code> which works just like <code>from filename import *</code> in Python.
+      </p>
+
+      <h3>📘 Syntax</h3>
+      <pre class="code-block">
+<span class="keyword">இறக்கு</span> filename
+      </pre>
+      <p>This will import all variables and functions from <code>filename</code> into the current file.</p>
+
+      <h3>🔁 Reuse Functions</h3>
+      <p>If <code>filename.vp</code> contains:</p>
+      <pre class="code-block">
+<span class="keyword">வேலை</span> சேர்க்கு(அ, ஆ) {
+  <span class="keyword">கொடு</span> அ + ஆ
+}
+      </pre>
+
+      <p>Then in your main file:</p>
+      <pre class="code-block">
+<span class="keyword">இறக்கு</span> filename
+<span class="keyword">வெளியிடு</span>(சேர்க்கு(<span class="number">3.0</span>, <span class="number">5.0</span>))
+      </pre>
+      <div class="output-box">8.0</div>
+
+      <h3>⚠️ Variable & Function Override</h3>
+      <p>
+        If you have a variable or function with the same name in the current file, it will override the one from the imported file.
+      </p>
+
+      <pre class="code-block">
+<span class="keyword">இறக்கு</span> filename
+
+<span class="keyword">வேலை</span> சேர்க்கு(அ, ஆ) {
+  <span class="keyword">கொடு</span> அ - ஆ
+}
+
+<span class="keyword">வெளியிடு</span>(சேர்க்கு(<span class="number">5.0</span>, <span class="number">2.0</span>))
+      </pre>
+      <div class="output-box">3.0</div>
+
+      <div class="center-button">
+        <a href="tutorial17.html" class="button">➡️ Go to Tutorial 17</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

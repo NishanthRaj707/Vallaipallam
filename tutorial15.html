@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 15 - Slicing | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 15</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🔪 Lesson 15: Slicing</h2>
+      <p>
+        Slicing is used to extract a portion of a <strong>சொல்</strong> (string) or <strong>பட்டியல்</strong> (list) using index values. The syntax is the same as Python:
+        <code>value[start:end]</code>
+      </p>
+
+      <h3>✂️ Slicing a String</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> சொல்1 = <span class="string">"வல்லைபள்ளம்"</span>
+<span class="keyword">வெளியிடு</span>(சொல்1[<span class="number">0</span>:<span class="number">4</span>])
+      </pre>
+      <div class="output-box">வல்ல</div>
+
+      <h3>🧩 Slicing a List</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பட்டியல்1 = <span class="list">[1.0, 2.0, 3.0, 4.0, 5.0]</span>
+<span class="keyword">வெளியிடு</span>(பட்டியல்1[<span class="number">1</span>:<span class="number">4</span>])
+      </pre>
+      <div class="output-box">[2.0, 3.0, 4.0]</div>
+
+      <h3>📘 Explanation</h3>
+      <ul>
+        <li><code>start</code> is the index where slicing begins (inclusive).</li>
+        <li><code>end</code> is the index where slicing stops (exclusive).</li>
+        <li>You can omit <code>start</code> or <code>end</code> for default behavior.</li>
+      </ul>
+
+      <h3>✨ More Examples</h3>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(சொல்1[:<span class="number">6</span>])      <span class="comment"># From beginning to index 6</span>
+<span class="keyword">வெளியிடு</span>(சொல்1[<span class="number">3</span>:])     <span class="comment"># From index 3 to end</span>
+<span class="keyword">வெளியிடு</span>(பட்டியல்1[:])     <span class="comment"># Full list copy</span>
+      </pre>
+
+      <div class="output-box">
+        வல்லைப<br>
+        லைபள்ளம்<br>
+        [1.0, 2.0, 3.0, 4.0, 5.0]
+      </div>
+
+      <div class="center-button">
+        <a href="tutorial16.html" class="button">➡️ Go to Tutorial 16</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

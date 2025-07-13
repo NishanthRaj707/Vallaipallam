@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 17 - File Handling | Vallaipallam</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 17</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>📂 Lesson 17: Text File Handling</h2>
+      <p>In Vallaipallam, file operations are done using built-in functions similar to Python, but in Tamil keywords:</p>
+
+      <ul>
+        <li><code style="color:#0055aa">திற</code> – open a file</li>
+        <li><code style="color:#0055aa">படி</code> – read from a file</li>
+        <li><code style="color:#0055aa">எழுது</code> – write to a file</li>
+        <li><code style="color:#0055aa">மூடு</code> – close the file</li>
+      </ul>
+
+      <h3>🔓 Opening a File - <code style="color:#0055aa">திற</code></h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> கோப்பு = <span style="color:#0055aa">திற</span>(<span class="string">"test.txt"</span>, <span class="string">"ப"</span>) <span class="comment"># mode 'ப' = read mode ('r')</span>
+      </pre>
+
+      <h3>📖 Reading Content - <code style="color:#0055aa">படி</code></h3>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(கோப்பு.<span style="color:#0055aa">படி</span>())
+      </pre>
+      <div class="output-box">வணக்கம் உலகம்!</div>
+
+      <h3>✍️ Writing Content - <code style="color:#0055aa">எழுது</code></h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> கோப்பு = <span style="color:#0055aa">திற</span>(<span class="string">"new.txt"</span>, <span class="string">"எ"</span>) <span class="comment"># mode 'எ' = write mode ('w')</span>
+கோப்பு.<span style="color:#0055aa">எழுது</span>(<span class="string">"வணக்கம் Vallaipallam!"</span>)
+      </pre>
+      <div class="output-box">📄 new.txt contains → வணக்கம் Vallaipallam!</div>
+
+      <h3>📌 Appending Text - Mode <span class="string">"சே"</span></h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> கோப்பு = <span style="color:#0055aa">திற</span>(<span class="string">"new.txt"</span>, <span class="string">"சே"</span>) <span class="comment"># mode 'சே' = append mode ('a')</span>
+கோப்பு.<span style="color:#0055aa">எழுது</span>(<span class="string">"\nவெற்றிகரமாக சேமிக்கப்பட்டது!"</span>)
+      </pre>
+      <div class="output-box">📄 new.txt now contains → 
+வணக்கம் Vallaipallam!
+வெற்றிகரமாக சேமிக்கப்பட்டது!</div>
+
+      <h3>🔐 Closing the File - <code style="color:#0055aa">மூடு</code></h3>
+      <pre class="code-block">
+கோப்பு.<span style="color:#0055aa">மூடு</span>()
+      </pre>
+
+      <h3>📘 Explanation</h3>
+      <ul>
+        <li><strong>ப</strong> → read mode (r)</li>
+        <li><strong>எ</strong> → write mode (w)</li>
+        <li><strong>சே</strong> → append mode (a)</li>
+      </ul>
+
+      <h3>🧪 Final Example</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> கோப்பு = <span style="color:#0055aa">திற</span>(<span class="string">"demo.txt"</span>, <span class="string">"எ"</span>)
+கோப்பு.<span style="color:#0055aa">எழுது</span>(<span class="string">"இது ஒரு டெமோ கோப்பு."</span>)
+கோப்பு.<span style="color:#0055aa">மூடு</span>()
+
+<span class="keyword">உருவாக்கு</span> கோப்பு = <span style="color:#0055aa">திற</span>(<span class="string">"demo.txt"</span>, <span class="string">"ப"</span>)
+<span class="keyword">வெளியிடு</span>(கோப்பு.<span style="color:#0055aa">படி</span>())
+      </pre>
+      <div class="output-box">📄 demo.txt → இது ஒரு டெமோ கோப்பு.</div>
+
+      <div class="center-button">
+        <a href="tutorial18.html" class="button">➡️ Go to Tutorial 18</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

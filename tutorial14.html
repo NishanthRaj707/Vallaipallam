@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 14 - Built-in Functions | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 14</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🧠 Lesson 14: Built-in Functions</h2>
+      <p>
+        Built-in functions are already available in Vallaipallam. You can use them without defining or calling with <code>கூப்பிடு</code>. They are grouped based on their purpose for easier understanding.
+      </p>
+
+      <h3>📏 Common Utility Functions</h3>
+
+      <h4>அளவு() – Length Function</h4>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பெயர் = <span class="string">"வல்லை"</span>
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">அளவு</span>(பெயர்))
+      </pre>
+      <div class="output-box">6</div>
+
+      <h4>வரம்பு() – Range Generator</h4>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">வரம்பு</span>(<span class="number">1.0</span>, <span class="number">5.0</span>))
+      </pre>
+      <div class="output-box">1.0, 2.0, 3.0, 4.0</div>
+
+      <h4>வகை() – Type Checker</h4>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">வகை</span>(<span class="string">"வணக்கம்"</span>))
+      </pre>
+      <div class="output-box">சொல்</div>
+
+      <h3>🔁 Type Casting Functions</h3>
+
+      <h4>எண்() – Convert to Float</h4>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">எண்</span>(<span style="color:#aa0077">"3.14"</span>))
+      </pre>
+      <div class="output-box">3.14</div>
+
+      <h4>சொல்() – Convert to String</h4>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">சொல்</span>(<span class="number">123.0</span>))
+      </pre>
+      <div class="output-box">"123.0"</div>
+
+      <h4>பட்டியல்() – Convert to List</h4>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color:#0055aa">பட்டியல்</span>(<span class="string">"abc"</span>))
+      </pre>
+      <div class="output-box">["a", "b", "c"]</div>
+
+      <h3>📚 List-Specific Functions</h3>
+
+      <h4>இணை() – Append to List</h4>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> எண்ணங்கள் = <span class="list">[1.0, 2.0]</span>
+எண்ணங்கள்.<span style="color:#0055aa">இணை</span>(<span class="number">3.0</span>)
+<span class="keyword">வெளியிடு</span>(எண்ணங்கள்)
+      </pre>
+      <div class="output-box">[1.0, 2.0, 3.0]</div>
+
+      <h4>செருகு() – Insert to List</h4>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> எண்ணங்கள் = <span class="list">[1.0, 3.0]</span>
+எண்ணங்கள்.<span style="color:#0055aa">செருகு</span>(<span class="number">1.0</span>, <span class="number">2.0</span>)
+<span class="keyword">வெளியிடு</span>(எண்ணங்கள்)
+      </pre>
+      <div class="output-box">[1.0, 2.0, 3.0]</div>
+
+      <h4>நீக்கு() – Remove by Index</h4>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பட்டியல்1 = <span class="list">[1.0, 2.0, 3.0]</span>
+பட்டியல்1.<span style="color:#0055aa">நீக்கு</span>(<span class="number">1.0</span>)
+<span class="keyword">வெளியிடு</span>(பட்டியல்1)
+      </pre>
+      <div class="output-box">[1.0, 3.0]</div>
+
+      <h3>🧵 String-Specific Functions</h3>
+
+      <h4>பிரி() – Split String</h4>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> வரி = <span class="string">"வந்தான்,வல்லை,வாழ்க"</span>
+<span class="keyword">வெளியிடு</span>(வரி.<span style="color:#0055aa">பிரி</span>(<span class="string">","</span>))
+      </pre>
+      <div class="output-box">["வந்தான்", "வல்லை", "வாழ்க"]</div>
+
+      <div class="center-button">
+        <a href="tutorial15.html" class="button">➡️ Go to Tutorial 15</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

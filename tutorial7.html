@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial 7 - Logical, Boolean and Null | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 7</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🔗 Lesson 7: Logical Operators, Boolean & Null Values</h2>
+      <p>
+        Logical operators are used to combine multiple boolean expressions. These expressions evaluate to either <code style="color: #00cc66; font-weight: bold;">மெய்</code> (True) or <code style="color: #cc3333; font-weight: bold;">பொய்</code> (False).
+      </p>
+
+      <h3>🧠 What Are Logical Operators?</h3>
+      <ul>
+        <li><code style="color: #3399ff; font-weight: bold;">மற்றும்</code> – AND (Both conditions must be true)</li>
+        <li><code style="color: #3399ff; font-weight: bold;">அல்லது</code> – OR (At least one condition must be true)</li>
+        <li><code style="color: #3399ff; font-weight: bold;">அல்ல</code> – NOT (Reverses the boolean value)</li>
+      </ul>
+
+      <h3>🧪 Example Usage:</h3>
+      <pre class="code-block">
+<span class="keyword">வெளியிடு</span>(<span style="color: #00cc66; font-weight: bold;">மெய்</span> <span style="color: #3399ff; font-weight: bold;">மற்றும்</span> <span style="color: #cc3333; font-weight: bold;">பொய்</span>)   # False
+<span class="keyword">வெளியிடு</span>(<span style="color: #00cc66; font-weight: bold;">மெய்</span> <span style="color: #3399ff; font-weight: bold;">அல்லது</span> <span style="color: #cc3333; font-weight: bold;">பொய்</span>)  # True
+<span class="keyword">வெளியிடு</span>(<span style="color: #3399ff; font-weight: bold;">அல்ல </span><span style="color: #00cc66; font-weight: bold;">மெய்</span>)        # False
+<span class="keyword">வெளியிடு</span>(<span style="color: #3399ff; font-weight: bold;">அல்ல </span><span style="color: #cc3333; font-weight: bold;">பொய்</span>)        # True
+      </pre>
+
+      <h3>🧾 Output</h3>
+      <div class="output-box">
+        பொய்<br>
+        மெய்<br>
+        பொய்<br>
+        மெய்
+      </div>
+
+      <h3>🔍 Boolean Keywords</h3>
+      <p>
+        In Vallaipallam, <code style="color: #00cc66; font-weight: bold;">மெய்</code> is used to represent <strong>True</strong>, and <code style="color: #cc3333; font-weight: bold;">பொய்</code> is used to represent <strong>False</strong>. These are useful in comparisons, logical decisions, and loops.
+      </p>
+
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> சோதனை = <span style="color: #00cc66; font-weight: bold;">மெய்</span>
+<span class="keyword">வெளியிடு</span>(சோதனை)
+      </pre>
+
+      <div class="output-box">
+        மெய்
+      </div>
+
+      <h3>❔ Special Datatype: காலி</h3>
+      <p>
+        The keyword <code style="color: #9999cc; font-weight: bold;">காலி</code> is used when a variable is meant to hold <strong>no value</strong>. It is similar to <code>None</code> in Python or <code>null</code> in other languages.
+        You can use it to mark something as empty or uninitialized.
+      </p>
+
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> பெயர் = <span style="color: #9999cc; font-weight: bold;">காலி</span>
+<span class="keyword">வெளியிடு</span>(பெயர்)
+      </pre>
+
+      <div class="output-box">
+        காலி
+      </div>
+
+      <p>
+        💡 <strong>Use Case:</strong> Use <code style="color: #9999cc; font-weight: bold;">காலி</code> when you plan to assign a value later, or when a variable might not always have something to hold.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial8.html" class="button">➡️ Go to Tutorial 8</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial 12 - Jumping Statements | Vallaipallam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <span class="logo pulse">🍌</span>
+    <h1 class="title">Vallaipallam - Tutorial 12</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>⛷️ Lesson 12: Jumping Statements</h2>
+      <p>
+        Jumping statements are used to control the flow of loops. They help us:
+        <ul>
+          <li><strong><span style="color: #ff6600; font-weight: bold;">தொடர்</span></strong> – Skip the current iteration and continue to the next</li>
+          <li><strong><span style="color: #ff6600; font-weight: bold;">ரத்து</span></strong> – Exit the loop immediately</li>
+        </ul>
+      </p>
+
+      <h3>🔁 Example using <code style="color: #ff6600; font-weight: bold;">தொடர்</code> (continue)</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> எண் = <span class="number">1.0</span>
+<span style="color: #ff6600; font-weight: bold;">அதுவரை</span> எண் &lt;= <span class="number">5.0</span> {
+  <span style="color: #ff6600; font-weight: bold;">இது</span> எண் == <span class="number">3.0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+    <span style="color: #ff6600; font-weight: bold;">தொடர்</span>
+  }
+  <span class="keyword">வெளியிடு</span>(எண்)
+  எண் = எண் + <span class="number">1.0</span>
+}
+      </pre>
+      <div class="output-box">
+        1.0<br>
+        2.0<br>
+        4.0<br>
+        5.0
+      </div>
+
+      <p>
+        Explanation: When <code>எண் == 3.0</code>, the <code style="color: #ff6600; font-weight: bold;">தொடர்</code> statement skips printing and continues the next iteration.
+      </p>
+
+      <h3>🚪 Example using <code style="color: #ff6600; font-weight: bold;">ரத்து</code> (break)</h3>
+      <pre class="code-block">
+<span class="keyword">உருவாக்கு</span> எண் = <span class="number">0.0</span>
+<span style="color: #ff6600; font-weight: bold;">அதுவரை</span> எண் &lt; <span class="number">10.0</span> {
+  <span class="keyword">வெளியிடு</span>(எண்)
+  <span style="color: #ff6600; font-weight: bold;">இது</span> எண் == <span class="number">4.0</span> <span style="color: #ff6600; font-weight: bold;">என்றால்</span> {
+    <span style="color: #ff6600; font-weight: bold;">ரத்து</span>
+  }
+  எண் = எண் + <span class="number">1.0</span>
+}
+      </pre>
+      <div class="output-box">
+        0.0<br>
+        1.0<br>
+        2.0<br>
+        3.0<br>
+        4.0
+      </div>
+
+      <p>
+        Explanation: When <code>எண் == 4.0</code>, <code style="color: #ff6600; font-weight: bold;">ரத்து</code> stops the loop completely.
+      </p>
+
+      <div class="center-button">
+        <a href="tutorial13.html" class="button">➡️ Go to Tutorial 13</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
