@@ -1,3 +1,29 @@
-© 2025 J. Nishanth Raj  
-All rights reserved under the Copyright Act, India.  
-"Vallaipallam" name and logo are original creations of the author.
+Copyright © 2024-2025 J. Nishanth Raj  
+All Rights Reserved.
+
+Project Name: Vallaipallam – Tamil Programming Language  
+Logo: 🍌 (Banana Emoji)  
+Repository: https://github.com/YOUR_USERNAME/vallaipallam  
+License: GNU General Public License v3.0 (GPLv3)
+
+---
+
+Vallaipallam is an original programming language written entirely in the Tamil language.  
+It is designed and developed solely by J. Nishanth Raj (Grade 12, Tamil Nadu, India).
+
+All source code, documentation, logo designs, and tutorials are the intellectual property of the author.
+
+You are free to use, modify, and redistribute this language only under the terms of the GPL v3.  
+Commercial redistribution, rebranding, or claiming authorship without written permission is strictly prohibited.
+
+Trademark Notice:  
+The name “Vallaipallam” and the banana 🍌 logo are registered trademarks of J. Nishanth Raj.  
+Unauthorized use of the name or logo in any form of promotion or sale is not allowed.
+
+For permissions, licensing, or media queries, contact the author at:  
+📧 vallaipallam.official@gmail.com (or your preferred email)
+
+---
+
+Respect originality. Build ethically.
+
